@@ -9,7 +9,7 @@ function Home() {
       <div className='flex  justify-center'>
         <div className='w-[1024px] flex pt-16 justify-center'>
           <div className='w-[537px] pt-16'>
-            <h1 className='text-4xl text-white font-Merriweather'>Satyam Rai is a <span className='text-primary'>back-end devleoper.</span>
+            <h1 className='text-4xl text-white font-Merriweather'>Satyam Rai is a <span className='text-primary'>back-end developer.</span>
             </h1>
             <p className='text-gray w-[463px] mt-6 font-serif text-xl'>
               He is a backend wizard, turning code into digital magic!
