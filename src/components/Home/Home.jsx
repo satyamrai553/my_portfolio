@@ -18,7 +18,7 @@ function Home() {
               Contact me !!
             </button>
           </div>
-          <div><img src="../../../public/my_image.png" alt="profile_image" /><p className='text-gray flex flex-row items-center border border-gray'><div className='w-4 h-4 bg-primary mx-2'></div>Currently learning <span className='text-white mx-1'>Next.js</span></p></div>
+          <div><img src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1726472372/mjepl4jweilf1qghdwcv.png" alt="profile_image" /><p className='text-gray flex flex-row items-center border border-gray'><div className='w-4 h-4 bg-primary mx-2'></div>Currently learning <span className='text-white mx-1'>Next.js</span></p></div>
 
         </div>
       </div>
