@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 
+
 function Header() {
   return (
     <div className='flex justify-center pt-8 bg-background-color text-white'>

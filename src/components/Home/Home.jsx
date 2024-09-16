@@ -1,4 +1,6 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
+import {Projects} from '../../constants.js'
 
 function Home() {
   return (
@@ -14,9 +16,10 @@ function Home() {
             <p className='text-gray w-[463px] mt-6 font-serif text-xl'>
               He is a backend wizard, turning code into digital magic!
             </p>
-            <button className='bg-background-color border-solid border border-primary mt-6 p-2 text-white'>
+            <Link to={'/contact'}><button className='bg-background-color border-solid border border-primary mt-6 p-2 text-white hover:bg-primary hover:border-white'>
               Contact me !!
-            </button>
+            </button></Link>
+            
           </div>
           <div><img src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1726472372/mjepl4jweilf1qghdwcv.png" alt="profile_image" /><p className='text-gray flex flex-row items-center border border-gray'><div className='w-4 h-4 bg-primary mx-2'></div>Currently learning <span className='text-white mx-1'>Next.js</span></p></div>
 
@@ -30,16 +33,49 @@ function Home() {
 
       <div className='flex justify-center mt-16'>
         <div>
-        <div>
-          <p className='border border-gray p-4 text-gray text-2xl grid-cols-1 grid'>Why do developers hate nature?
-            It has too many bugs!
-          </p>
-          
+          <div>
+            <p className='border border-gray p-4 text-gray text-2xl grid-cols-1 grid'>Why do developers hate nature?
+              It has too many bugs!
+            </p>
+
+          </div>
+          <div className='grid justify-items-end'>
+            <p className='w-1/4  border border-gray p-4 text-gray text-2xl'>- Dr. Who</p>
+          </div>
         </div>
-        <div className='grid justify-items-end'>
-         <p className='w-1/4  border border-gray p-4 text-gray text-2xl'>- Dr. Who</p>
+      </div>
+
+
+
+      {/* Project section */}
+
+
+      <div className='bg-background-color pt-16 flex justify-center'>
+
+
+        <div className='w-[1024px] text-white flex justify-center' >
+
+          {/* heading section of projects */}
+          <div className='flex items-center justify-between'>
+            <div className='flex justify-center items-center'><span className='text-primary'>#</span><h2 className='text-2xl'>Projects</h2></div>
+            <div className='h-0 border border-primary w-[512px] mx-4'>
+
+            </div>
+            <div>
+              <Link to={'/work'}><button className='text-gray flex items-center'>View all <img className='invert mx-2 h-8' src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1726474790/icons/ojbkhwqjqboswsoyvxtb.svg" alt="arrow icon" /></button></Link>
+              
+            </div>
+          </div>
+
+          {/* lower section, cards of projects */}
+          <div>
+          for(let i=0; i<3; i++){
+
+          }
+
+          </div>
         </div>
-        </div>
+
       </div>
 
 
