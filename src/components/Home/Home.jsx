@@ -56,11 +56,14 @@ function Home() {
         <div className='w-[1024px]' >
 
           {/* heading section of projects */}
-          <div className='flex justify-center items-center'>
+          <div className='flex justify-between items-center'>
+            <div className='flex justify-center items-center'>
             <div className='flex justify-center items-center'><span className='text-primary'>#</span><h2 className='text-2xl text-white'>Projects</h2></div>
             <div className='h-0 border border-primary w-[512px] mx-4'>
 
             </div>
+            </div>
+            
             <div>
               <Link to={'/work'}><button className='text-gray flex items-center'>View all <img className='invert mx-2 h-8' src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1726474790/icons/ojbkhwqjqboswsoyvxtb.svg" alt="arrow icon" /></button></Link>
 
@@ -68,9 +71,9 @@ function Home() {
           </div>
 
           {/* lower section, cards of projects */}
-          <div className="flex justify-center mt-16">
+          <div className="flex justify-center mt-16 mb-16">
             {Projects.slice(0, 3).map((project, index) => (
-              <div key={index} className="project-card w-80 h-66 mx-3 border-collapse border border-gray">
+              <div key={index} className="project-card w-80 h-66 mr-4 border-collapse border border-gray">
                 <img src={project.img} alt={project.title} className="project-image" />
                 <div className="project-tags border-collapse border border-gray p-2">
                   {project.tags.map((tag, idx) => (
