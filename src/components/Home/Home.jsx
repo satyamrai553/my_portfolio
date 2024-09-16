@@ -69,9 +69,7 @@ function Home() {
 
           {/* lower section, cards of projects */}
           <div>
-          for(let i=0; i<3; i++){
-
-          }
+         
 
           </div>
         </div>
