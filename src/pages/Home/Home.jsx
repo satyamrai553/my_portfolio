@@ -4,7 +4,7 @@ import { HeroSection, AboutSection, ProjectsSection, SkillsSection, ContactSecti
 
 function Home() {
   return (
-    <div className='bg-background-color'>
+    <div className='bg-background-color pb-16'>
 
 
 
@@ -26,6 +26,14 @@ function Home() {
       <SkillsSection />
 
 
+    {/* About section  */}
+
+     <AboutSection />
+
+
+     {/* Contact section */}
+
+     <ContactSection/>
     </div>
   )
 }

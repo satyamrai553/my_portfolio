@@ -29,13 +29,13 @@ function Footer() {
               Media
             </h1>
             <div className='flex justify-center'>
-              <a href="https://www.instagram.com/satyam_rai_dev/">
+              <a href="https://www.instagram.com/satyamrai2609/" target='blank'>
                 <img src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1726487267/icons/howpftjinzmmodusopmy.svg" alt="instagram" className='h-5 md:h-6 px-2 invert'/>
               </a>
-              <a href="https://www.linkedin.com/in/satyam-rai-99b06a1b1/">
+              <a href="https://www.linkedin.com/in/satyam-rai-b15472118/" target='blank'>
                 <img src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1726487267/icons/sxzxlqlm2nnzbhrjg3kc.svg" alt="linkedin" className='h-5 md:h-6 px-2 invert'/>
               </a>
-              <a href="https://github.com/satyamrai">
+              <a href="https://github.com/satyamrai553" target='blank'>
                 <img src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1726487267/icons/nvulwitijsid05nj5aby.svg" alt="github" className='h-5 md:h-6 px-2 invert'/>
               </a>
             </div>

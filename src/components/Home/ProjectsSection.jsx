@@ -1,5 +1,5 @@
 import React from 'react'
-import Projects from '../../constants'
+import { Projects } from '../../constants'
 import {Link} from 'react-router-dom'
 
 function ProjectsSection() {
@@ -11,8 +11,8 @@ function ProjectsSection() {
           <div className='flex flex-col md:flex-row justify-between items-center'>
             <div className='flex items-center'>
               <span className='text-primary'>#</span>
-              <h2 className='text-2xl text-white ml-2'>Projects</h2>
-              <div className='h-0 border border-primary w-full md:w-[512px] mx-4'></div>
+              <h2 className='text-2xl text-white ml-2'>projects</h2>
+              <div className='h-0 border border-primary md:w-[512px] mx-4'></div>
             </div>
             <div className='mt-4 md:mt-0'>
               <Link to={'/work'}>
@@ -27,7 +27,7 @@ function ProjectsSection() {
           {/* Lower section, cards of projects */}
           <div className="flex flex-wrap justify-center mt-8 md:mt-16 mb-8 md:mb-16">
             {Projects.slice(0, 3).map((project, index) => (
-              <div key={index} className="project-card w-full md:w-1/2 lg:w-1/3 mb-6 px-4">
+              <div key={index} className="project-card w-80 md:w-1/2 lg:w-1/3 mb-6 px-4">
                 <div className="border border-gray">
                   <img src={project.img} alt={project.title} className="w-full h-40 object-cover" />
                   <div className="project-tags border-t border-gray p-2">

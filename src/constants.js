@@ -22,4 +22,27 @@ const Projects =[
     }
 ]
 
-export default Projects;
+
+const Skills = [
+    {
+      'title': 'Languages',
+      'description': 'JavaScript, Python, C/C++, HTML, CSS'
+    },
+    {
+      'title': 'Frameworks',
+      'description': 'React, Next.js, Express.js, Node.js'
+    },
+    {
+      'title': 'Databases',
+      'description': 'MongoDB, MySQL, SQL'
+    },
+    {
+      'title': 'Tools',
+      'description': 'Git, Docker, Postman, VS Code'
+    },
+    {
+      'title': 'Others',
+      'description': 'REST API, GraphQL, Agile Methodology'
+    }
+  ];
+export {Projects, Skills};
