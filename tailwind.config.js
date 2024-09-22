@@ -12,9 +12,11 @@ export default {
 
       },
       colors:{
-        'background-color': '#282C33',
-        'primary': "#C778DD",
-        'gray': "#ABB2BF"
+        'background-color': '#1d3557',
+        'primary': "#fa9500",
+        'primary-light': '#ffa641',
+        'gray': "#ABB2BF",
+        
       }
     },
   },
