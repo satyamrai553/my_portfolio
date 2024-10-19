@@ -1,8 +1,11 @@
 import React from 'react'
-
+import {CompleteApp, SmallProjects} from '../../components/Work/WorkExport'
 function Work() {
   return (
-    <div>Work</div>
+    <>
+    <CompleteApp/>
+    <SmallProjects/>
+    </>
   )
 }
 
