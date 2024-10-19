@@ -18,7 +18,7 @@ function ProjectsSection() {
               <Link to={'/work'}>
                 <button className='text-gray flex items-center'>
                   View all
-                  <img className='invert mx-2 h-6 md:h-8' src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1726474790/icons/ojbkhwqjqboswsoyvxtb.svg" alt="arrow icon" />
+                  <img className='invert mx-2 h-6 md:h-8' src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1729370915/My_portfolio/icons/xrq6nhl5fgxdynwldo4v.svg" alt="arrow icon" />
                 </button>
               </Link>
             </div>
@@ -28,8 +28,8 @@ function ProjectsSection() {
           <div className="flex flex-wrap justify-center mt-8 md:mt-16 mb-8 md:mb-16">
             {Projects.slice(0, 3).map((project, index) => (
               <div key={index} className="project-card w-80 md:w-1/2 lg:w-1/3 mb-6 px-4">
-                <div className="border border-gray">
-                  <img src={project.img} alt={project.title} className="w-full h-40 object-cover" />
+                <div className="border border-gray  ">
+                  <img src={project.img} alt={project.title} className="w-full h-40 object-contain" />
                   <div className="project-tags border-t border-gray p-2">
                     {project.tags.map((tag, idx) => (
                       <span key={idx} className="project-tag text-gray text-sm md:text-md m-1">{tag}</span>

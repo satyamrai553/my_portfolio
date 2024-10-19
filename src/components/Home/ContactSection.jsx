@@ -26,7 +26,7 @@ function ContactSection() {
             </tr>
             <tr className=''>
                 
-                <a href="https://www.instagram.com/satyamrai2609/" target='blank'><td className='p-3'><img src="../../../public/satyamrai2609_qr.png" alt="instagram" className='w-36 '/></td></a>
+                <a href="https://www.instagram.com/satyamrai2609/" target='blank'><td className='p-3'><img src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1729370733/My_portfolio/c2ionhb1wv0irfnngisl.png" alt="instagram" className='w-36 '/></td></a>
             </tr>
         </table>
     </div>

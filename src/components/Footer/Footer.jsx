@@ -30,13 +30,13 @@ function Footer() {
             </h1>
             <div className='flex justify-center'>
               <a href="https://www.instagram.com/satyamrai2609/" target='blank'>
-                <img src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1726487267/icons/howpftjinzmmodusopmy.svg" alt="instagram" className='h-5 md:h-6 px-2 invert'/>
+                <img src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1729370915/My_portfolio/icons/uqfsuder4rzjbyem7bdi.svg" alt="instagram" className='h-5 md:h-6 px-2 invert'/>
               </a>
               <a href="https://www.linkedin.com/in/satyam-rai-b15472118/" target='blank'>
-                <img src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1726487267/icons/sxzxlqlm2nnzbhrjg3kc.svg" alt="linkedin" className='h-5 md:h-6 px-2 invert'/>
+                <img src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1729370968/My_portfolio/icons/mo1kovvdh3nex2j8u6pl.svg" alt="linkedin" className='h-5 md:h-6 px-2 invert'/>
               </a>
               <a href="https://github.com/satyamrai553" target='blank'>
-                <img src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1726487267/icons/nvulwitijsid05nj5aby.svg" alt="github" className='h-5 md:h-6 px-2 invert'/>
+                <img src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1729370914/My_portfolio/icons/t83intkz4v7q3evwou5i.svg" alt="github" className='h-5 md:h-6 px-2 invert'/>
               </a>
             </div>
           </div>
