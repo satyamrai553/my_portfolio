@@ -1,8 +1,11 @@
 import React from 'react'
+import Profile from '../../components/Github/Profile'
 
 function Github() {
   return (
-    <div>Github</div>
+   <>
+   <Profile/>
+   </>
   )
 }
 
