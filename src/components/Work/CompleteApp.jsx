@@ -18,7 +18,7 @@ const CompleteApp = () => {
                   <Link to={'/work'}>
                     <button className='text-gray flex items-center'>
                       View all
-                      <img className='invert mx-2 h-6 md:h-8' src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1726474790/icons/ojbkhwqjqboswsoyvxtb.svg" alt="arrow icon" />
+                      <img className='invert mx-2 h-6 md:h-8' src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1729370915/My_portfolio/icons/xrq6nhl5fgxdynwldo4v.svg" alt="arrow icon" />
                     </button>
                   </Link>
                 </div>

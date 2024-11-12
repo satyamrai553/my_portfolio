@@ -17,7 +17,7 @@ function HeroSection() {
             </Link>
           </div>
           <div className='flex flex-col items-center mt-8 md:mt-0'>
-            <img className='w-56 md:w-56 lg:w-56' src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1726472372/mjepl4jweilf1qghdwcv.png" alt="profile_image" />
+            <img className='w-56 md:w-56 lg:w-56' src="https://res.cloudinary.com/dpxkotl1n/image/upload/v1729368396/My_portfolio/mq6l764kmepfnt6o0ndg.png" alt="profile_image" />
             <p className='text-gray flex flex-row items-center border border-gray p-2'>
               <div className='w-4 h-4 bg-primary mx-2'></div>Currently learning <span className='text-white mx-1'>Next.js</span>
             </p>
