@@ -87,7 +87,7 @@ const About = () => {
           <strong>Email:</strong> satyam@example.com
         </p>
         <p className="text-gray-600 text-lg">
-          <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/satyam" className="text-blue-500 hover:underline">linkedin.com/in/satyam</a>
+          <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/satyam-rai-b15472118/" className="text-blue-500 hover:underline">linkedin.com/in/satyam</a>
         </p>
       </div>
     </section>
