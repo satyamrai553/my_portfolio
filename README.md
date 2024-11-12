@@ -1,8 +1,27 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This is where I showcase my projects, skills, and professional journey.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can view the live site [here](https:satyamcodes.online).
+
+## Features
+
+- **Home**: Introduction and overview
+- **About**: Brief bio, skills, and experience
+- **Projects**: Showcase of notable projects with descriptions and links
+- **Contact**: Easy way to get in touch via form or social media
+
+## Built With
+
+- **Frontend**: HTML, CSS, JavaScript, React
+- **Styling**: Tailwind CSS for responsive and modern UI
+- **Deployment**: Hosted on Vercel
+
+## Getting Started
+
+1. **Clone the repo**:
+   ```bash
+   git clone https://github.com/satyamrai553/my_portfolio.git
+   cd my_portfolio
