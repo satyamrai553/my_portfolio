@@ -10,9 +10,9 @@ function HeroSection() {
             <p className='text-gray w-full md:w-[463px] mt-4 md:mt-6 font-serif text-lg md:text-xl'>
               He is a backend wizard, turning code into digital magic!
             </p>
-            <Link to={'/contact'}>
+            <Link to={'https://www.fiverr.com/satyamrai123/make-reactjs-frontend-website'}>
               <button className='bg-primary border-solid border border-white rounded-md mt-6 p-2 text-white hover:bg-primary-light hover:border-white invisible md:visible text-lg font-bold w-40'>
-                Contact me !!
+              Hire me!
               </button>
             </Link>
           </div>
